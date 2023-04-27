@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  #banner {
+    text-align: center;
+    color: #fff;
+    /* background image */
+    background-image: url("images/bannerBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  #headline{
+    font-size: 4em;
+    font-family: sans-serif;
+  }
+
+  nav{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font: 2em sans-serif;
+  }
+  nav a {
+    /* make flex and space elements evenly in a row*/
+
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ccc;
+  }
+
+  .productDescription{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .social-media{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1rem;
+  }
+  
